@@ -1,3 +1,6 @@
+use rtreemark::Tree;
+
 fn main() {
-    println!("Hello, world!");
+    let t = Tree::new("Chestnut");
+    println!("Hello, {t}!");
 }
